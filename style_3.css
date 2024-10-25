@@ -1,0 +1,98 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+.wrapper {
+   width: 430px;
+   height: 448px;
+   border-radius: 6px;
+   background: rgba(44, 45, 51, 1);
+}
+
+.wrapper h2 {
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 18.75px;
+   text-align: left;
+   color: rgba(130, 130, 130, 1);
+   padding-top: 28px;
+   padding-left: 45px;
+}
+
+.wrapper h1 {
+   font-family: Roboto;
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 46.88px;
+   letter-spacing: -0.0375em;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+   padding-top: 6px;
+   padding-left: 45px;
+}
+
+.wrapper .up {
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16.41px;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+   padding-top: 6px;
+   padding-left: 45px;
+}
+
+.wrapper .line {
+   border: 1px solid rgba(79, 79, 79, 1);
+   margin-top: 23px;
+}
+
+.wrapper .img {
+   margin-top: 18px;
+   margin-left: 29px;
+}
+
+.wrapper .container {
+   padding-top: 40px;
+   padding-left: 72px;
+   flex-direction: row;
+}
+
+.wrapper .container .low {
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14.52px;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+}
+
+.wrapper .container .box1 {
+   margin-top: 4px;
+   margin-right: 9px;
+   width: 21px;
+   height: 8px;
+   background: rgba(22, 91, 170, 1);
+}
+
+.wrapper .container .box2 {
+   margin-top: 4px;
+   margin-right: 9px;
+   margin-left: 22px;
+   width: 21px;
+   height: 8px;
+   background: rgba(161, 85, 185, 1);
+}
+
+.wrapper .container .box3 {
+   margin-top: 4px;
+   margin-right: 9px;
+   margin-left: 23px;
+   width: 21px;
+   height: 8px;
+   top: 404px;
+   left: 281px;
+   background: rgba(247, 101, 163, 1);
+}

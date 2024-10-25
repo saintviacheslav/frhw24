@@ -1,0 +1,78 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+.wrapper {
+   background: rgba(44, 45, 51, 1);
+   width: 430px;
+   /* height: 448px; */
+   border-radius: 6px;
+
+}
+
+.wrapper h2 {
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 18.75px;
+   text-align: left;
+   color: rgba(130, 130, 130, 1);
+   padding-left: 45px;
+   padding-top: 28px;
+}
+
+.wrapper h1 {
+   font-family: Roboto;
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 46.88px;
+   letter-spacing: -0.0375em;
+   color: rgba(255, 255, 255, 1);
+   padding-left: 45px;
+   padding-top: 4px;
+}
+
+.wrapper .up {
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16.41px;
+   color: rgba(255, 255, 255, 1);
+   padding-left: 45px;
+   padding-top: 4px;
+}
+
+.wrapper .line {
+   border: 2px solid rgba(79, 79, 79, 1);
+   margin-top: 27px;
+}
+
+.wrapper .img {
+   padding-top: 29px;
+   padding-left: 29px;
+}
+
+.wrapper .container {
+   flex-direction: row;
+}
+
+.wrapper .container .box {
+   width: 21px;
+   height: 8px;
+   background: rgba(99, 171, 253, 1);
+   margin-top: 44px;
+   margin-left: 72px;
+}
+
+.wrapper .low {
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14.52px;
+   color: rgba(255, 255, 255, 1);
+   padding-bottom: 31px;
+   padding-top: 40px;
+   margin-left: 9px;
+
+}

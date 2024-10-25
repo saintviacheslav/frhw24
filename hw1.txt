@@ -1,0 +1,46 @@
+HTML:<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
+   <title>EighT Clinic</title>
+</head>
+<body>
+   <h1 class="title">Text decoration</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit quo cupiditate voluptas iure fugit quaerat modi commodi aspernatur? Sit nemo repellat totam minus nisi facere autem cumque pariatur repudiandae.</p>
+   <h2 class="subtitle">Second level heading</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores quam exercitationem, quasi, reiciendis asperiores consequuntur dolore repellat harum quis pariatur odit voluptatem facere illo eaque provident voluptates officia commodi!</p>
+   <ul class="list">
+      <li>1st point</li>
+      <li>2nd point</li>
+      <li>3rd point</li>
+   </ul>
+</body>
+</html>
+
+
+CSS:body{
+   font-family: "Arial", sans-serif;
+   font-size: 16px;
+   color: #333;
+   line-height: 1.5;
+}
+.title{
+   font-size: 40px;
+   color: #f03333;
+   line-height: 1.2;
+   text-transform: uppercase;
+}
+.subtitle{
+   font-size: 30px;
+   color: #12ac11;
+   line-height: 1.2;
+   text-decoration: underline;
+}
+.list{
+   font-size: 20px;
+   color:#444;
+   font-style: italic ;
+   list-style-type: square;
+}

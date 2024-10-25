@@ -1,0 +1,109 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-color: black;
+}
+
+.wrapper {
+   width: 430px;
+   height: 400px;
+   border-radius: 6px;
+   border: 2px;
+   background: rgba(255, 255, 255, 1);
+}
+
+.wrapper h2 {
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 18.75px;
+   text-align: left;
+   color: rgba(130, 130, 130, 1);
+   padding-left: 45px;
+   padding-top: 28px;
+}
+
+.wrapper h1 {
+   font-family: Roboto;
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 46.88px;
+   letter-spacing: -0.0375em;
+   color: rgba(11, 19, 84, 1);
+   padding-left: 45px;
+   padding-top: 4px;
+}
+
+.wrapper .up {
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16.41px;
+   color: rgba(79, 79, 79, 1);
+   padding-left: 45px;
+   padding-top: 4px;
+}
+
+.wrapper .line {
+   border: 1px solid rgba(236, 236, 236, 1);
+   margin-top: 27px;
+}
+
+.wrapper .img {
+   padding-top: 0px;
+   padding-left: 0px;
+}
+
+.wrapper .containerparent {
+   flex-direction: row;
+}
+
+.wrapper .containerparent .container {
+   flex-direction: column;
+   margin-top: 58px;
+}
+
+.wrapper .containerparent .container .block {
+   padding-bottom: 8px;
+}
+
+.wrapper .low {
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14.52px;
+   text-align: left;
+   margin-left: 9px;
+   color: rgba(79, 79, 79, 1);
+
+}
+
+.wrapper .container .box1 {
+   margin-top: 4px;
+   margin-right: 9px;
+   width: 21px;
+   height: 8px;
+   background: rgba(22, 91, 170, 1);
+}
+
+.wrapper .container .box2 {
+   margin-top: 4px;
+   margin-right: 9px;
+   width: 21px;
+   height: 8px;
+   background: rgba(247, 101, 163, 1);
+
+}
+
+.wrapper .container .box3 {
+   margin-top: 4px;
+   margin-right: 9px;
+   width: 21px;
+   height: 8px;
+   top: 404px;
+   left: 281px;
+   background: rgba(22, 191, 214, 1);
+}
